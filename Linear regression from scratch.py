@@ -9,7 +9,7 @@ m = 0
 b = 0
 
 n = len(study_hour)        # number of data points
-iteration = 1000           # number of training steps
+iteration = 10000          # number of training steps
 learning_rate = 0.01       # step size for gradient descent
 
 for _ in range(iteration):
