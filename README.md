@@ -4,6 +4,8 @@ This project demonstrates how linear regression works internally by implementing
 
 The goal is to understand the core idea behind gradient descent and how a model learns the best-fit line.
 
+-> This is an educational implementation not for production!
+
 ## Dataset
 
 A small demo dataset representing:
@@ -38,3 +40,19 @@ After training, the model converges close to:
 
 m ≈ 2  
 b ≈ 1
+
+## Purpose
+
+This project is meant for:
+- Learning how linear regression works internally
+- Understanding gradient descent without abstraction
+- Building strong ML fundamentals before using libraries
+
+## How to Run
+
+python linear_regression.py
+
+## Notes
+
+- This is an educational implementation, not optimized for performance
+- Designed for clarity and learning, not production use
