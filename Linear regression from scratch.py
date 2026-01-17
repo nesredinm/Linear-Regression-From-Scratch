@@ -26,4 +26,4 @@ for _ in range(iteration):
     b = b - learning_rate * (2 / n) * db
     m = m - learning_rate * (2 / n) * dm
 
-print(m, b)
+print(f"\nParameters: \nslope(m): {m}\ny-intercept(b): {b}\n")
